@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 
-if [ "$TMUX" = "" ]; then tmux; fi
+# if [ "$TMUX" = "" ]; then tmux; fi
 
 HIST_STAMPS="yyyy-mm-dd"
 eval "$(dircolors ~/.dircolors)"
